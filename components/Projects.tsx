@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
-import { HiExternalLink } from "react-icons/hi";
 
 export default function Projects() {
   const containerVariants = {
@@ -123,3 +122,4 @@ export default function Projects() {
     </section>
   );
 }
+
