@@ -46,7 +46,7 @@ export default function Experience() {
           viewport={{ once: true }}
           className="space-y-8"
         >
-          {portfolioData.experience.map((exp, index) => (
+          {portfolioData.experience.map((exp) => (
             <motion.div
               key={exp.id}
               variants={itemVariants}
@@ -111,3 +111,4 @@ export default function Experience() {
     </section>
   );
 }
+
