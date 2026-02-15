@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { HiMenu, HiX, HiDownload } from "react-icons/hi";
 
@@ -112,3 +111,4 @@ export default function Navbar() {
     </motion.nav>
   );
 }
+
